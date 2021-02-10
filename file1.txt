@@ -27,6 +27,8 @@ ls -la	            List detailed directory contents, including hidden files
 mkdir <dir>	        Create new folder named <dir>
 mkdir <dir1> <dir2> <dir3>	  Create several folders at once
 touch <file>	    Create a new file without any extension
+rm -R               <dir>	Delete a folder and its contents
 rm <file>	        Delete a file (This deletes the file permanently; use with caution.)
+rm -f <file>	    Force removal without confirmation
 mv <file> <newfilename>	      Move/rename
 mv <file> <dir>	    Move a file to the folder, possibly by overwriting an existing file
