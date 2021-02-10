@@ -1,0 +1,31 @@
+****** Symmetric and Asymmetric Encryption ******
+
+The basic difference between these two types of encryption is that symmetric encryption uses one key for 
+both encryption and decryption,and the asymmetric encryption uses public key for encryption and
+a private key for decryption.
+________________________________________________________________________________________________________
+
+****** Hashing ******
+
+Hashing is similar to encryption in that it scrambles the input data into a randomized or near-randomized 
+output data.
+There is no easy way to unscramble the data, interpret the output, or reverse-engineer the input.
+There’s no key, no system of two keys, no publicly-accessible keys, no certificates that will grant you 
+access to the original data. At risk of over-extending the metaphor, once you bake the data into the hash, 
+there’s no unbaking it.
+
+So what good is this hashed data? 
+
+It can be stored securely and used to identify that data input’s recurrences—for example, a password. 
+In fact, hashing is the go-to method of securing passwords. When a user creates a password on a site with 
+strong security, it passes through a hashing algorithm and gets stored on the site’s data cache in its 
+nonsensical, standardized hash format.
+
+If a cybercriminal hacks the data, all (s)he has is a bundle of hashed passwords that can’t be used as 
+login credentials because there is no key to unlock the data in its original form.
+
+One characteristic of hashing algorithms, however, is that the same input produces the same hash. 
+This is why it is useful for password storage. Users can access secure content by entering the correct 
+password, which passes through the hashing algorithm to produce the same hashed output every time, which 
+the system can then match with the user’s hashed password stored in the data cache.
+_________________________________________________________________________________________________________
