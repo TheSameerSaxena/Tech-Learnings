@@ -1,2 +1,32 @@
 Hello Gaaaiz
 
+The Mac Terminal Commands Cheat Sheet:
+
+ Ctrl + L	        Clear the screen
+ Ctrl + C	        Kill whatever you're running
+ Ctrl + D	        Exit the current shell
+ Ctrl + _	        Undo the last command
+
+/ (Forward Slash)	Top level directory
+. (Single Period)	Current directory
+.. (Double Period)	Parent directory
+~ (Tilde)	        Home directory
+cd	                Home directory
+cd [folder]	        Change directory, e.g. cd Documents
+open [file]	        Opens a file
+[command] -h	    Get help about a command
+man [command]	    Show the help manual of the command
+
+ls	                Display the name of files and subdirectories in the directory
+ls -a	            List all entries including those with .(period) and ..(double period)
+ls -l	            List in a long format. Includes file mode, owner and group name, date 
+                    and time file was modified, pathname, and more
+
+ls -la	            List detailed directory contents, including hidden files
+
+mkdir <dir>	        Create new folder named <dir>
+mkdir <dir1> <dir2> <dir3>	  Create several folders at once
+touch <file>	    Create a new file without any extension
+rm <file>	        Delete a file (This deletes the file permanently; use with caution.)
+mv <file> <newfilename>	      Move/rename
+mv <file> <dir>	    Move a file to the folder, possibly by overwriting an existing file
